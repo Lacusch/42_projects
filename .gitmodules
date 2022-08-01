@@ -1,0 +1,12 @@
+[submodule "libft"]
+	path = libft
+	url = https://github.com/Lacusch/libft.git
+[submodule "get_next_line"]
+	path = get_next_line
+	url = https://github.com/Lacusch/get_next_line.git
+[submodule "Printf"]
+	path = Printf
+	url = https://github.com/Lacusch/Printf.git
+[submodule "Born2beroot"]
+	path = Born2beroot
+	url = https://github.com/Lacusch/Born2beroot.git
