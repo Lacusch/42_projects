@@ -1,9 +1,9 @@
 all: header
 
-# OK_COLOR	= \033[0;32m
+ OK_COLOR	= \033[0;32m
 
 header:
-	# @printf "%b" "$(OK_COLOR)"
+	@printf "%b" "$(OK_COLOR)"
 	@echo " "
 	@echo "   _____ ________          .__                        .__                   "
 	@echo "  /  |  |\_____  \    _____|  | _____    _____________|  |   ____           "
