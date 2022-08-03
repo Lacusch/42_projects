@@ -1,4 +1,4 @@
-all: header
+all: header submodules
 
  OK_COLOR	= \033[0;32m
 
@@ -13,4 +13,4 @@ header:
 	@echo "     |__|        \/      \/          \/     \/       \/                     "
 
 submodules:
-	git submodule update --init --recursive
+	git submodule update --recursive --remote
