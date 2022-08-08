@@ -13,4 +13,7 @@ header:
 	@echo "     |__|        \/      \/          \/     \/       \/                     "
 
 submodules:
-	git submodule update --recursive --remote
+	@echo 'initalising and updating submodule'
+	@git submodule init
+	@git submodule update --recursive --remote
+	@echo 'submodules done'
